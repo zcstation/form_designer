@@ -1,0 +1,54 @@
+#designContent {
+    padding: 30px 60px 30px 30px;
+}
+
+#reportTable {
+    width: 100%
+}
+
+.m-table-form td.table-head {
+    width: 5em;
+}
+
+#jqContextMenu .my_menu_exp {
+    position: relative;
+    margin-bottom: 1px !important;
+}
+
+#jqContextMenu .my_menu_exp:after {
+    display: block;
+    content: " ";
+    border-bottom: 1px solid #cccccc;
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+}
+
+#reportTable div.widget > span[contenteditable="true"] {
+    display: block;
+    line-height: 32px;
+}
+
+.m-table-form > tbody > tr > td.table-head {
+    padding: 15px 5px;
+}
+
+.custom-td .iconfont {
+    font-size: 16px;
+    color: #fff;
+    background-color: #059DFF;
+    padding: 1px 1px 0 1px;
+    cursor: pointer;
+}
+
+#selectProperty > .m-table-form > tbody > tr:nth-child(3) > td:nth-child(3) .delete {
+    display: none;
+}
+
+.propertyBox .u-input, .propertyBox .u-label, .propertyBox .u-checkbox, .propertyBox .u-select, .propertyBox .u-textarea {
+    height: 38px;
+    line-height: 36px;
+    border-radius: 0;
+}
